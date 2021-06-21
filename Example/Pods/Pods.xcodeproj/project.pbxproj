@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B4228676E8DC47A478DFBFF024C0F /* Cenfonet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2032B05DABF8A9359C739AB087EA5FE /* Cenfonet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183D11D39BD0F8700BAE4DD2BF2D5AE2 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F90EC0FDAA174E6A89E75E1CA0C3886 /* Dictionary.swift */; };
+		1AADB38C2083C41F25429A2BCF87700D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E238E9C1567C957A664A4DE76FA7A /* Client.swift */; };
+		3282F6C82C6D98CFC850BD88C2C57521 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C502716175D0130654412A5D32603 /* URL.swift */; };
+		3BD976E1324F5D6B856D07FD13C74A0C /* Pods-Cenfonet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919C2AF3584EA2E2983FD81BD7967176 /* Pods-Cenfonet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60983F86AF5F4039F53CA4ABA4D11F4F /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A30CE7AC8012051A625F81903B34616 /* URLRequest.swift */; };
+		6BEDDBAFC22BCF758299A00C10A03F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6D13A4AE929CFA0280032C457266D4AC /* Cenfonet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B80487981511AA9AD05DC328FDF913 /* Cenfonet-dummy.m */; };
+		A54BE2B243B5F62C5A04F9F3EE3CA78A /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A42EF80F6222419AA4D052C5E5D55 /* ApiError.swift */; };
+		AB8AC65DFBCF4DE21A97FC7A78306764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B9B9BBF05D26A0BC58522387E6BBD86A /* Pods-Cenfonet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C63956E064193D95A85125A344BC7 /* Pods-Cenfonet_Example-dummy.m */; };
+		C0CC6A4527A685CB63DBC7330B738157 /* Pods-Cenfonet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F006404337EE4DE2AC9C7391786AAEE /* Pods-Cenfonet_Tests-dummy.m */; };
+		C258707DA6A592E98CD77EB77E3D82F4 /* Pods-Cenfonet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BA8C1D6D00F078E3D249695B9ABD21 /* Pods-Cenfonet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2595B53BD2441823722D23C913764B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE6E66D4AB87477BC38988B91C8875C4 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CB19B723839ADA35FA011EB99DDC1 /* HttpMethod.swift */; };
+		FFBA30814BCBB0DF47F5394B3E1B7166 /* HttpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A170A12D52F6254D53DE66AE26933F1 /* HttpHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2796C505C5CF836B1AF80AAFC0DA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A111ACF65A3FD0D8D27F5C7915451E52;
+			remoteInfo = "Pods-Cenfonet_Example";
+		};
+		4EA63C8A977291B3DA970E889264B346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8311128374B648176C330278A60DFA;
+			remoteInfo = Cenfonet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11383BF5404B5CBCD7F6F2355B79C603 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1A170A12D52F6254D53DE66AE26933F1 /* HttpHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpHeader.swift; path = Cenfonet/Classes/HttpHeader.swift; sourceTree = "<group>"; };
+		22F91A7F73EBFCCB575E52E170B88DF5 /* Pods-Cenfonet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cenfonet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2460D20004B6BFA311BA5FA20574C784 /* Pods-Cenfonet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cenfonet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		247AB2BA8FE82BB319D5275092878D2B /* Pods-Cenfonet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cenfonet_Tests-Info.plist"; sourceTree = "<group>"; };
+		2A296D7F236012E124CF307E8198BAC9 /* Pods-Cenfonet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cenfonet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2B6F44CFCBE005F2B486945EC6C080BD /* Pods-Cenfonet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cenfonet_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2C55D5746D5B0DB3BF3F7C4EAB7DEAC5 /* Cenfonet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cenfonet.modulemap; sourceTree = "<group>"; };
+		3198A578491D88CF6ED471F97FB23075 /* Cenfonet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cenfonet.debug.xcconfig; sourceTree = "<group>"; };
+		37B80487981511AA9AD05DC328FDF913 /* Cenfonet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cenfonet-dummy.m"; sourceTree = "<group>"; };
+		3C8CD667E463F540120F2F627DE9A374 /* Pods-Cenfonet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cenfonet_Example.modulemap"; sourceTree = "<group>"; };
+		3F006404337EE4DE2AC9C7391786AAEE /* Pods-Cenfonet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cenfonet_Tests-dummy.m"; sourceTree = "<group>"; };
+		447380496E5B8C9D9A2D1CE4593AC531 /* Pods-Cenfonet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cenfonet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		475154FE33F56AD68C36F43D671E160C /* Pods-Cenfonet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cenfonet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D9C63956E064193D95A85125A344BC7 /* Pods-Cenfonet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cenfonet_Example-dummy.m"; sourceTree = "<group>"; };
+		618C502716175D0130654412A5D32603 /* URL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		6DA3EB9927B6593D521A3CE4AC1FBC82 /* Cenfonet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Cenfonet.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E3036BCCFF4475528F643A5CF3E188B /* Pods-Cenfonet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cenfonet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F90EC0FDAA174E6A89E75E1CA0C3886 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A30CE7AC8012051A625F81903B34616 /* URLRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		8DA5CDD5A8268A036DFD0ED85962498A /* Pods-Cenfonet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cenfonet_Example-Info.plist"; sourceTree = "<group>"; };
+		919C2AF3584EA2E2983FD81BD7967176 /* Pods-Cenfonet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cenfonet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9AD2A720A7831DDC7407C683CFAC1261 /* Pods_Cenfonet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cenfonet_Example.framework; path = "Pods-Cenfonet_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A22C195119C3A3378052A26F20E74021 /* Pods-Cenfonet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cenfonet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A58A9C6C2C53F4B72432F675B34677F5 /* Pods-Cenfonet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cenfonet_Tests.modulemap"; sourceTree = "<group>"; };
+		B07E238E9C1567C957A664A4DE76FA7A /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Cenfonet/Classes/Client.swift; sourceTree = "<group>"; };
+		C32FDC7BC2A33467E66E52423D3794A4 /* Cenfonet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cenfonet-prefix.pch"; sourceTree = "<group>"; };
+		C45CB19B723839ADA35FA011EB99DDC1 /* HttpMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpMethod.swift; path = Cenfonet/Classes/HttpMethod.swift; sourceTree = "<group>"; };
+		D2032B05DABF8A9359C739AB087EA5FE /* Cenfonet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cenfonet-umbrella.h"; sourceTree = "<group>"; };
+		D2BA8C1D6D00F078E3D249695B9ABD21 /* Pods-Cenfonet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cenfonet_Example-umbrella.h"; sourceTree = "<group>"; };
+		E149079FA5D5217401B5F0767F8FCBDC /* Cenfonet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cenfonet-Info.plist"; sourceTree = "<group>"; };
+		E6C8BB1AE15C80DBB80945AACCB6DB34 /* Cenfonet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cenfonet.framework; path = Cenfonet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0D8EF4AAD8BC8936A381FD287CC981 /* Pods_Cenfonet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cenfonet_Tests.framework; path = "Pods-Cenfonet_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B978A903B430B1639AA0F2661AC951 /* Pods-Cenfonet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cenfonet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F83518F6A2F001436917B0DD86C9AAF5 /* Cenfonet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cenfonet.release.xcconfig; sourceTree = "<group>"; };
+		F945EED150C791619EE48A8CEDE63E7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FA9A42EF80F6222419AA4D052C5E5D55 /* ApiError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = Cenfonet/Classes/ApiError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB961ED2C63096A39B484D2468F7EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEDDBAFC22BCF758299A00C10A03F8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F321DEC21AD3423904303369F564A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2595B53BD2441823722D23C913764B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7ADF04211D22FDA0BECC2C88E45010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8AC65DFBCF4DE21A97FC7A78306764 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		071F506D79C2B6FDE518F4281104FEBB /* Cenfonet */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A42EF80F6222419AA4D052C5E5D55 /* ApiError.swift */,
+				B07E238E9C1567C957A664A4DE76FA7A /* Client.swift */,
+				1A170A12D52F6254D53DE66AE26933F1 /* HttpHeader.swift */,
+				C45CB19B723839ADA35FA011EB99DDC1 /* HttpMethod.swift */,
+				BB68CEDB1CE8C623B929001842507C49 /* Extensions */,
+				BDF69FB25D13C5913E42B0054DEA20C9 /* Pod */,
+				3C028687D22813F1E7C43E722CDD4BE1 /* Support Files */,
+			);
+			name = Cenfonet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		152171D64B3BE2FEE0657222EA560DF1 /* Pods-Cenfonet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A58A9C6C2C53F4B72432F675B34677F5 /* Pods-Cenfonet_Tests.modulemap */,
+				6E3036BCCFF4475528F643A5CF3E188B /* Pods-Cenfonet_Tests-acknowledgements.markdown */,
+				F2B978A903B430B1639AA0F2661AC951 /* Pods-Cenfonet_Tests-acknowledgements.plist */,
+				3F006404337EE4DE2AC9C7391786AAEE /* Pods-Cenfonet_Tests-dummy.m */,
+				247AB2BA8FE82BB319D5275092878D2B /* Pods-Cenfonet_Tests-Info.plist */,
+				919C2AF3584EA2E2983FD81BD7967176 /* Pods-Cenfonet_Tests-umbrella.h */,
+				A22C195119C3A3378052A26F20E74021 /* Pods-Cenfonet_Tests.debug.xcconfig */,
+				2A296D7F236012E124CF307E8198BAC9 /* Pods-Cenfonet_Tests.release.xcconfig */,
+			);
+			name = "Pods-Cenfonet_Tests";
+			path = "Target Support Files/Pods-Cenfonet_Tests";
+			sourceTree = "<group>";
+		};
+		3C028687D22813F1E7C43E722CDD4BE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C55D5746D5B0DB3BF3F7C4EAB7DEAC5 /* Cenfonet.modulemap */,
+				37B80487981511AA9AD05DC328FDF913 /* Cenfonet-dummy.m */,
+				E149079FA5D5217401B5F0767F8FCBDC /* Cenfonet-Info.plist */,
+				C32FDC7BC2A33467E66E52423D3794A4 /* Cenfonet-prefix.pch */,
+				D2032B05DABF8A9359C739AB087EA5FE /* Cenfonet-umbrella.h */,
+				3198A578491D88CF6ED471F97FB23075 /* Cenfonet.debug.xcconfig */,
+				F83518F6A2F001436917B0DD86C9AAF5 /* Cenfonet.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Cenfonet";
+			sourceTree = "<group>";
+		};
+		4758736D8DD3EE9631C019C6F7FB54E4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				071F506D79C2B6FDE518F4281104FEBB /* Cenfonet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5862065BB413B8880D08F899561B1107 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B163C3A32549A7692995ED225974C39F /* Pods-Cenfonet_Example */,
+				152171D64B3BE2FEE0657222EA560DF1 /* Pods-Cenfonet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B163C3A32549A7692995ED225974C39F /* Pods-Cenfonet_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CD667E463F540120F2F627DE9A374 /* Pods-Cenfonet_Example.modulemap */,
+				475154FE33F56AD68C36F43D671E160C /* Pods-Cenfonet_Example-acknowledgements.markdown */,
+				2460D20004B6BFA311BA5FA20574C784 /* Pods-Cenfonet_Example-acknowledgements.plist */,
+				4D9C63956E064193D95A85125A344BC7 /* Pods-Cenfonet_Example-dummy.m */,
+				2B6F44CFCBE005F2B486945EC6C080BD /* Pods-Cenfonet_Example-frameworks.sh */,
+				8DA5CDD5A8268A036DFD0ED85962498A /* Pods-Cenfonet_Example-Info.plist */,
+				D2BA8C1D6D00F078E3D249695B9ABD21 /* Pods-Cenfonet_Example-umbrella.h */,
+				447380496E5B8C9D9A2D1CE4593AC531 /* Pods-Cenfonet_Example.debug.xcconfig */,
+				22F91A7F73EBFCCB575E52E170B88DF5 /* Pods-Cenfonet_Example.release.xcconfig */,
+			);
+			name = "Pods-Cenfonet_Example";
+			path = "Target Support Files/Pods-Cenfonet_Example";
+			sourceTree = "<group>";
+		};
+		BB68CEDB1CE8C623B929001842507C49 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F90EC0FDAA174E6A89E75E1CA0C3886 /* Dictionary.swift */,
+				618C502716175D0130654412A5D32603 /* URL.swift */,
+				7A30CE7AC8012051A625F81903B34616 /* URLRequest.swift */,
+			);
+			name = Extensions;
+			path = Cenfonet/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		BDF69FB25D13C5913E42B0054DEA20C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3EB9927B6593D521A3CE4AC1FBC82 /* Cenfonet.podspec */,
+				F945EED150C791619EE48A8CEDE63E7F /* LICENSE */,
+				11383BF5404B5CBCD7F6F2355B79C603 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE1847A61F5244F8C43667A887BE3495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C8BB1AE15C80DBB80945AACCB6DB34 /* Cenfonet.framework */,
+				9AD2A720A7831DDC7407C683CFAC1261 /* Pods_Cenfonet_Example.framework */,
+				EA0D8EF4AAD8BC8936A381FD287CC981 /* Pods_Cenfonet_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4758736D8DD3EE9631C019C6F7FB54E4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CE1847A61F5244F8C43667A887BE3495 /* Products */,
+				5862065BB413B8880D08F899561B1107 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EC0554EE1415A04DB349AC58D7CDF57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B4228676E8DC47A478DFBFF024C0F /* Cenfonet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		967A3D2E560DC416EF3CF13055A71A5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C258707DA6A592E98CD77EB77E3D82F4 /* Pods-Cenfonet_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6F91ABBD1EAF9142DF7BD4C24D369E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD976E1324F5D6B856D07FD13C74A0C /* Pods-Cenfonet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18B0568802356568DA3DDE5A1DF02645 /* Pods-Cenfonet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7835D840DB7EAA70381C3DF33683AF /* Build configuration list for PBXNativeTarget "Pods-Cenfonet_Tests" */;
+			buildPhases = (
+				FA6F91ABBD1EAF9142DF7BD4C24D369E /* Headers */,
+				8B27727B3AEDDD88D12DB7A15D1A9DF3 /* Sources */,
+				DF7ADF04211D22FDA0BECC2C88E45010 /* Frameworks */,
+				C39C3EE91C750D203B7CED11E5B7540D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895A31E04A7E64272179B28D4EE7FA71 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cenfonet_Tests";
+			productName = "Pods-Cenfonet_Tests";
+			productReference = EA0D8EF4AAD8BC8936A381FD287CC981 /* Pods_Cenfonet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A8311128374B648176C330278A60DFA /* Cenfonet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D9467DBE262FEF2DE92A889B6EC2ADC /* Build configuration list for PBXNativeTarget "Cenfonet" */;
+			buildPhases = (
+				1EC0554EE1415A04DB349AC58D7CDF57 /* Headers */,
+				5191FE89017C98C2C7CDB8C72D049221 /* Sources */,
+				1F321DEC21AD3423904303369F564A53 /* Frameworks */,
+				DE029031190AD947E25299D81179E078 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cenfonet;
+			productName = Cenfonet;
+			productReference = E6C8BB1AE15C80DBB80945AACCB6DB34 /* Cenfonet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A111ACF65A3FD0D8D27F5C7915451E52 /* Pods-Cenfonet_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C218042F2EEB9D2F21E818406CD28C91 /* Build configuration list for PBXNativeTarget "Pods-Cenfonet_Example" */;
+			buildPhases = (
+				967A3D2E560DC416EF3CF13055A71A5A /* Headers */,
+				7ED59E89079AE780E237D343C7563A6F /* Sources */,
+				0DB961ED2C63096A39B484D2468F7EC5 /* Frameworks */,
+				9A9A249AA9B3254271206A21D55B9C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3114BBB4729F51A42B6F5A46B9B46CED /* PBXTargetDependency */,
+			);
+			name = "Pods-Cenfonet_Example";
+			productName = "Pods-Cenfonet_Example";
+			productReference = 9AD2A720A7831DDC7407C683CFAC1261 /* Pods_Cenfonet_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE1847A61F5244F8C43667A887BE3495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A8311128374B648176C330278A60DFA /* Cenfonet */,
+				A111ACF65A3FD0D8D27F5C7915451E52 /* Pods-Cenfonet_Example */,
+				18B0568802356568DA3DDE5A1DF02645 /* Pods-Cenfonet_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A9A249AA9B3254271206A21D55B9C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39C3EE91C750D203B7CED11E5B7540D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE029031190AD947E25299D81179E078 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5191FE89017C98C2C7CDB8C72D049221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54BE2B243B5F62C5A04F9F3EE3CA78A /* ApiError.swift in Sources */,
+				6D13A4AE929CFA0280032C457266D4AC /* Cenfonet-dummy.m in Sources */,
+				1AADB38C2083C41F25429A2BCF87700D /* Client.swift in Sources */,
+				183D11D39BD0F8700BAE4DD2BF2D5AE2 /* Dictionary.swift in Sources */,
+				FFBA30814BCBB0DF47F5394B3E1B7166 /* HttpHeader.swift in Sources */,
+				FE6E66D4AB87477BC38988B91C8875C4 /* HttpMethod.swift in Sources */,
+				3282F6C82C6D98CFC850BD88C2C57521 /* URL.swift in Sources */,
+				60983F86AF5F4039F53CA4ABA4D11F4F /* URLRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED59E89079AE780E237D343C7563A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9BBF05D26A0BC58522387E6BBD86A /* Pods-Cenfonet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B27727B3AEDDD88D12DB7A15D1A9DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CC6A4527A685CB63DBC7330B738157 /* Pods-Cenfonet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3114BBB4729F51A42B6F5A46B9B46CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cenfonet;
+			target = 6A8311128374B648176C330278A60DFA /* Cenfonet */;
+			targetProxy = 4EA63C8A977291B3DA970E889264B346 /* PBXContainerItemProxy */;
+		};
+		895A31E04A7E64272179B28D4EE7FA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Cenfonet_Example";
+			target = A111ACF65A3FD0D8D27F5C7915451E52 /* Pods-Cenfonet_Example */;
+			targetProxy = 1E2796C505C5CF836B1AF80AAFC0DA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AD8FB4F938C84060D167C0EC0AD1411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447380496E5B8C9D9A2D1CE4593AC531 /* Pods-Cenfonet_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cenfonet_Example/Pods-Cenfonet_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cenfonet_Example/Pods-Cenfonet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		49E2A7C7480806BA1F04807BE0802668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A296D7F236012E124CF307E8198BAC9 /* Pods-Cenfonet_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cenfonet_Tests/Pods-Cenfonet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cenfonet_Tests/Pods-Cenfonet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B2993EC01C58A55553EC56C291891E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3198A578491D88CF6ED471F97FB23075 /* Cenfonet.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cenfonet/Cenfonet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cenfonet/Cenfonet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cenfonet/Cenfonet.modulemap";
+				PRODUCT_MODULE_NAME = Cenfonet;
+				PRODUCT_NAME = Cenfonet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37D0EF5E4025F463E162EA8C0F7B2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22C195119C3A3378052A26F20E74021 /* Pods-Cenfonet_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cenfonet_Tests/Pods-Cenfonet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cenfonet_Tests/Pods-Cenfonet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4A844DC071B49A681B70286987CDDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83518F6A2F001436917B0DD86C9AAF5 /* Cenfonet.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cenfonet/Cenfonet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cenfonet/Cenfonet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cenfonet/Cenfonet.modulemap";
+				PRODUCT_MODULE_NAME = Cenfonet;
+				PRODUCT_NAME = Cenfonet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD90FBBF49F0A75AF1CC5481B417D97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F91A7F73EBFCCB575E52E170B88DF5 /* Pods-Cenfonet_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cenfonet_Example/Pods-Cenfonet_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cenfonet_Example/Pods-Cenfonet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D9467DBE262FEF2DE92A889B6EC2ADC /* Build configuration list for PBXNativeTarget "Cenfonet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2993EC01C58A55553EC56C291891E3 /* Debug */,
+				E4A844DC071B49A681B70286987CDDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7835D840DB7EAA70381C3DF33683AF /* Build configuration list for PBXNativeTarget "Pods-Cenfonet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37D0EF5E4025F463E162EA8C0F7B2F2 /* Debug */,
+				49E2A7C7480806BA1F04807BE0802668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C218042F2EEB9D2F21E818406CD28C91 /* Build configuration list for PBXNativeTarget "Pods-Cenfonet_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD8FB4F938C84060D167C0EC0AD1411 /* Debug */,
+				FD90FBBF49F0A75AF1CC5481B417D97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

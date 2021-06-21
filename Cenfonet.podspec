@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Cenfonet'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Cenfonet.'
+  s.summary          = 'Library to use RESTful APIs'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Cenfonet/Classes/**/*'
   
+  s.swift_version = "5.0"
   # s.resource_bundles = {
   #   'Cenfonet' => ['Cenfonet/Assets/*.png']
   # }

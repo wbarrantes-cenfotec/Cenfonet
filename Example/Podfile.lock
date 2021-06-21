@@ -1,0 +1,16 @@
+PODS:
+  - Cenfonet (0.1.0)
+
+DEPENDENCIES:
+  - Cenfonet (from `../`)
+
+EXTERNAL SOURCES:
+  Cenfonet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cenfonet: 079954aa23c0aa7c241b94b399c32de7db7ceb23
+
+PODFILE CHECKSUM: 193e12df54e81bfc29898535804e8eab7b03c394
+
+COCOAPODS: 1.10.1

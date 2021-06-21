@@ -1,0 +1,6 @@
+framework module Cenfonet {
+  umbrella header "Cenfonet-umbrella.h"
+
+  export *
+  module * { export * }
+}

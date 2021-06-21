@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import Cenfonet
+
+struct Feed: Codable {
+    var feed: String
+}
 
 class ViewController: UIViewController {
 
+    var client: Client?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        client = Client(session: URLSession.shared)
+        
+        /*client?.fetch(type: Feed.self,
+                      stringUrl: "",
+                      method: .post,
+                      parameters: [:]) { result in
+            
+        }*/
     }
 
     override func didReceiveMemoryWarning() {
