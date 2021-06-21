@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Cenfonet_Example' do
+  pod 'Cenfonet', :path => '../'
+
+  target 'Cenfonet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
